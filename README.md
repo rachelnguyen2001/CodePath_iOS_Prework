@@ -1,10 +1,10 @@
-# Pre-work - Tippy
+# Pre-work - *Tippy*
 
-Tippy is a tip calculator application for iOS.
+**Tippy** is a tip calculator application for iOS.
 
-Submitted by: Anh (Rachel) Nguyen
+Submitted by: **Anh Nguyen**
 
-Time spent: 5 hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -28,9 +28,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://i.imgur.com/UJpMAZY.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+GIF created with [Ezgif](https://ezgif.com/video-to-gif).
 
 ## Notes
 
@@ -38,7 +39,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2021] [Anh (Rachel) Nguyen]
+    Copyright [2021] [Anh Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
