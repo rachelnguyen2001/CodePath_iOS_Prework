@@ -15,6 +15,7 @@
 		C0EBE5A925A382EC00634CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EBE5A725A382EC00634CE0 /* LaunchScreen.storyboard */; };
 		C0EBE5B425A382EC00634CE0 /* CodePath_iOS_PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBE5B325A382EC00634CE0 /* CodePath_iOS_PreworkTests.swift */; };
 		C0EBE5BF25A382EC00634CE0 /* CodePath_iOS_PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBE5BE25A382EC00634CE0 /* CodePath_iOS_PreworkUITests.swift */; };
+		C0EBE5D025A4A15200634CE0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EBE5CF25A4A15200634CE0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C0EBE5BA25A382EC00634CE0 /* CodePath_iOS_PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePath_iOS_PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EBE5BE25A382EC00634CE0 /* CodePath_iOS_PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePath_iOS_PreworkUITests.swift; sourceTree = "<group>"; };
 		C0EBE5C025A382EC00634CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EBE5CF25A4A15200634CE0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C0EBE59025A382EA00634CE0 = {
 			isa = PBXGroup;
 			children = (
+				C0EBE5CF25A4A15200634CE0 /* SettingsViewController.swift */,
 				C0EBE59B25A382EA00634CE0 /* CodePath_iOS_Prework */,
 				C0EBE5B225A382EC00634CE0 /* CodePath_iOS_PreworkTests */,
 				C0EBE5BD25A382EC00634CE0 /* CodePath_iOS_PreworkUITests */,
@@ -261,6 +264,7 @@
 				C0EBE5A125A382EA00634CE0 /* ViewController.swift in Sources */,
 				C0EBE59D25A382EA00634CE0 /* AppDelegate.swift in Sources */,
 				C0EBE59F25A382EA00634CE0 /* SceneDelegate.swift in Sources */,
+				C0EBE5D025A4A15200634CE0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
