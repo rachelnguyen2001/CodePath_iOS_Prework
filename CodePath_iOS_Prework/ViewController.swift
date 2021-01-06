@@ -14,16 +14,30 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var darkMode: UISwitch!
     
     override func viewDidLoad() {
         billAmountTextField.keyboardType = UIKeyboardType.decimalPad
+        darkMode.isOn = false
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        overrideUserInterfaceStyle = .light
     
         self.title = "Tippy"
 
     }
+    
+    @IBAction func changeMode(_ sender: Any) {
+        
+        if (darkMode.isOn == true) {
+            overrideUserInterfaceStyle = .dark
+        } else {
+            overrideUserInterfaceStyle = .light
+        }
+        
+    }
+    
     
     @IBAction func onTap(_ sender: Any) {
     }

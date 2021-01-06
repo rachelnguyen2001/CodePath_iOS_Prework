@@ -86,14 +86,26 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="JE5-8n-udv">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="Tj7-Ni-vXT">
-                            <connections>
-                                <segue destination="bvI-Hj-OiN" kind="show" id="iv0-bc-xlF"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem id="Tj7-Ni-vXT">
+                                <connections>
+                                    <segue destination="bvI-Hj-OiN" kind="show" id="iv0-bc-xlF"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="L1h-BV-Ihn">
+                                <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="0z0-9V-nW6">
+                                    <rect key="frame" x="343" y="6.5" width="51" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <action selector="changeMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="DF0-rT-PmZ"/>
+                                    </connections>
+                                </switch>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="billAmountTextField" destination="7pp-K5-rfA" id="SFI-CD-2iO"/>
+                        <outlet property="darkMode" destination="0z0-9V-nW6" id="5qD-l1-OOR"/>
                         <outlet property="tipControl" destination="4i4-5a-o5f" id="DNK-9e-gTn"/>
                         <outlet property="tipPercentageLabel" destination="azm-5x-LyD" id="DgF-eP-olk"/>
                         <outlet property="totalLabel" destination="mzd-Ht-gBH" id="eST-7S-wPW"/>
