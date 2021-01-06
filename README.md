@@ -22,14 +22,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Dark mode is enabled.
+- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![](https://i.imgur.com/9FzUERB.gif)
-
+![]()![](https://i.imgur.com/jJwX3YT.gif)
 
 GIF created with [Ezgif](https://ezgif.com/video-to-gif).
 
